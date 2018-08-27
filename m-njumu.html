@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>M-njumu</title>
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/animate.css@3.5.2/animate.min.css">
+	<link rel="stylesheet" type="text/css" href="style.css">
+
+<style>
+ul#list li {
+	display:inline;
+}
+
+</style>
+</head>
+<body onload="startTime()">
+		<div class="container">
+			
+			<h1 style="font-family: garamond"> Njumu Collections</h1>
+			<!-- Wrap -->
+		<div class="wrap agileits w3layouts">
+
+			<!-- Slider -->
+			<div class="slider agileits w3layouts">
+
+				<ul class="rslides agileits w3layouts" id="slider">
+					<li>
+						<img src="img/shoe3.jpg" ">
+					</li>
+					<li>
+						<img src="img/shoe5.jpg">
+					</li>
+					<li>
+						<img src="img/shoe6.jpg">
+					</li>
+				</ul>
+
+			</div>
+			<!-- //Slider -->
+<ul id="list" style="padding-right: 40px;">
+	<li>
+		<img src="img/2gnolq.gif">
+		
+	</li>
+	<li>
+		<img src="img/2gnphk.gif">
+		
+	</li>
+</ul>
+
+		</div>
+			<!-- Default-JavaScript --> <script type="text/javascript" src="js/jquery-2.1.4.min.js"></script>
+
+			<!-- Slider-JavaScript -->
+				<script src="js/responsiveslides.min.js"></script>
+				<script>
+					$(function () {
+						$("#slider, #slider2").responsiveSlides({
+							auto: true,
+							nav: true,
+							speed: 1500,
+							namespace: "callbacks",
+							pager: true,
+						});
+					});
+				</script>
+			<!-- //Slider-JavaScript -->
+</body>
+</html>
